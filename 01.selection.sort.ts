@@ -91,19 +91,3 @@ class SelectionSort<T extends Array<any>> {
 }
 
 export default SelectionSort;
-
-// const instance = new SelectionSort<number[]>([4, 3, 2, 1]);
-// const output = instance.performSort();
-// console.log(output);
-
-// const instance2 = new SelectionSort<number[]>([4, 3, 2, 1, 5, 6, 8, 7, 10]);
-// const output2 = instance2.performSort();
-// console.log(output2);
-
-// const instance3 = new SelectionSort<string[]>(["d", "c", "b", "a"]);
-// const output3 = instance3.performSort();
-// console.log(output3);
-
-// const instance4 = new SelectionSort<string[]>(["ab", "cd", "ef", "ij", "kl", "mn", "op", "qr", "st", "gh"]);
-// const output4 = instance4.performSort();
-// console.log(output4);
